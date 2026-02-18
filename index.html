@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="saisei.dev gives old games a second life by empowering communities with modern tools and support."
+    />
+    <title>saisei.dev — Give Old Games a Second Life</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="crt-overlay" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="brand">saisei.dev</div>
+      <nav>
+        <a href="#screenshots">Screenshots</a>
+        <a href="docs.html">Documentation</a>
+        <a
+          href="https://github.com/saisei-dev/saisei-site"
+          target="_blank"
+          rel="noreferrer"
+          >GitHub</a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="pixel-tag">[RETRO REVIVAL PROJECT]</p>
+        <h1>Give old games a second life.</h1>
+        <p>
+          saisei.dev empowers communities with the tools, infra, and
+          modernization workflows needed to run, preserve, and improve classic
+          games for today’s platforms.
+        </p>
+        <div class="cta-row">
+          <a class="btn" href="docs.html">Read Documentation</a>
+          <a
+            class="btn btn-alt"
+            href="https://github.com/saisei-dev/saisei-site"
+            target="_blank"
+            rel="noreferrer"
+            >Open GitHub Project</a
+          >
+        </div>
+      </section>
+
+      <section id="screenshots" class="panel">
+        <h2>Game screenshots</h2>
+        <div class="screenshots-grid">
+          <figure>
+            <img
+              src="assets/screenshots/game-1.svg"
+              alt="Retro game screenshot 1"
+            />
+          </figure>
+          <figure>
+            <img
+              src="assets/screenshots/game-2.svg"
+              alt="Retro game screenshot 2"
+            />
+          </figure>
+          <figure>
+            <img
+              src="assets/screenshots/game-3.svg"
+              alt="Retro game screenshot 3"
+            />
+          </figure>
+          <figure>
+            <img
+              src="assets/screenshots/game-4.svg"
+              alt="Retro game screenshot 4"
+            />
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Contact: <a href="mailto:contact@saisei.dev">contact@saisei.dev</a></p>
+      <p>
+        Socials:
+        <a href="https://twitter.com/saiseidev" target="_blank" rel="noreferrer"
+          >@saiseidev</a
+        >
+        ·
+        <a
+          href="https://instagram.com/saisei_dev"
+          target="_blank"
+          rel="noreferrer"
+          >@saisei_dev</a
+        >
+      </p>
+      <p>© <span id="year">2026</span> saisei.dev</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
